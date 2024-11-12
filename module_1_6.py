@@ -1,0 +1,16 @@
+my_dict = {'Artur': 1963, 'Valentina': 1963, 'Nikita': 1987}
+print(my_dict)
+print(my_dict['Nikita'])
+print(my_dict.get('Liza'))
+my_dict.update({'Sofiya': 2016, 'Agata': 2017})
+print(my_dict)
+a = my_dict.pop('Agata')
+print(a)
+print(my_dict)
+my_set = {'123', 123, 1.23, True,'123', 123, 1.23, True, '123', 123, 1.23, True}
+print(my_set)
+my_set.add(False)
+my_set.add(4/5)
+print(my_set)
+my_set.discard(False)
+print(my_set)
